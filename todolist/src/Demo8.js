@@ -26,6 +26,7 @@ function Demo8() {
         <input type="text" name='password' defaultValue={poe} onChange={handleChange} /><br /><br />
         
         <input type="submit" value="Submit" />
+        <button>Submit</button>
       </form>
     </div>
   );

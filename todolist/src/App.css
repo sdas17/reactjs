@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.header{
+  border: 1px solid red;
+  display: inline-block;
+  width: 34%;
+  background-color: #004196;
+  border: 1px snow;
+  color: #fff1ff;;
+
+}
+.container{
+  text-align: center;
+}
