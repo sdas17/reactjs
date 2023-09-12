@@ -8,6 +8,7 @@ function Project() {
 
     useEffect(()=>{
         console.log('Registraed');
+        
     },[flag])
     function addvalue(e){
         setData({...setvalue,[e.target.name]:e.target.value})

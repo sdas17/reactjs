@@ -7,13 +7,14 @@ import Demo12 from './Demo12';
 import Demo14 from './Demo14';
 import Project from './Project';
 
+import Todo from './Todo';
 
 
 
 function App() {
-  function getData(data){
-console.log(data,'parnet');
-  }
+//   function getData(data){
+// console.log(data,'parnet');
+//   }
   return (
     // <div className="App">
     //   <header className="App-header">
@@ -37,7 +38,8 @@ console.log(data,'parnet');
     {/* <Demo11/> */}
     {/* <Demo12/> */}
     {/* <Demo14 getData={getData}/> */}
-    <Project/>
+    {/* <Project/> */}
+    <Todo/>
     </>
   );
 }
